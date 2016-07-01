@@ -6,8 +6,20 @@
 //  Copyright © 2016 Evan's iOS. All rights reserved.
 //
 
-import Cocoa
+// import Cocoa
 
-class HomeController: UIViewController {
+class HomeController: ViewController {
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        
+        // fill table with articles
+        getNews()
+    }
+    
+    
+    func getNews(){
+        
+    }
 }

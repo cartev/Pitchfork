@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85EBC568CA002A236A7670F6 /* Pods_Pitchfork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7D26970365101BF42A2601 /* Pods_Pitchfork.framework */; };
 		FAB2FB5C1C44259E0014D1E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2FB5B1C44259E0014D1E3 /* AppDelegate.swift */; };
 		FAB2FB5E1C44259E0014D1E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2FB5D1C44259E0014D1E3 /* ViewController.swift */; };
 		FAB2FB611C44259E0014D1E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB2FB5F1C44259E0014D1E3 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		FAB2FB661C44259E0014D1E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB2FB641C44259E0014D1E3 /* LaunchScreen.storyboard */; };
 		FAB2FB711C44259E0014D1E3 /* PitchforkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2FB701C44259E0014D1E3 /* PitchforkTests.swift */; };
 		FAB2FB7C1C44259F0014D1E3 /* PitchforkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2FB7B1C44259F0014D1E3 /* PitchforkUITests.swift */; };
+		FADF39F71C56CF8500AEF43A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF39F61C56CF8500AEF43A /* HomeController.swift */; };
+		FAE949D31D2463020099A3F2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE949D21D2463020099A3F2 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02ADFAEECA0B3FBC8EB77A34 /* Pods-Pitchfork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pitchfork.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pitchfork/Pods-Pitchfork.release.xcconfig"; sourceTree = "<group>"; };
+		8FE02FA2AA3415966A925FF6 /* Pods-Pitchfork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pitchfork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pitchfork/Pods-Pitchfork.debug.xcconfig"; sourceTree = "<group>"; };
+		CB7D26970365101BF42A2601 /* Pods_Pitchfork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pitchfork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB2FB581C44259E0014D1E3 /* Pitchfork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pitchfork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB2FB5B1C44259E0014D1E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAB2FB5D1C44259E0014D1E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		FAB2FB771C44259E0014D1E3 /* PitchforkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchforkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB2FB7B1C44259F0014D1E3 /* PitchforkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchforkUITests.swift; sourceTree = "<group>"; };
 		FAB2FB7D1C44259F0014D1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADF39F61C56CF8500AEF43A /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		FAE949D21D2463020099A3F2 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85EBC568CA002A236A7670F6 /* Pods_Pitchfork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E0DEA23F4F96F9EB793B4E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FE02FA2AA3415966A925FF6 /* Pods-Pitchfork.debug.xcconfig */,
+				02ADFAEECA0B3FBC8EB77A34 /* Pods-Pitchfork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB4218D57484B4AFB8B37AB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB7D26970365101BF42A2601 /* Pods_Pitchfork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAB2FB4F1C44259E0014D1E3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,8 @@
 				FAB2FB6F1C44259E0014D1E3 /* PitchforkTests */,
 				FAB2FB7A1C44259F0014D1E3 /* PitchforkUITests */,
 				FAB2FB591C44259E0014D1E3 /* Products */,
+				9E0DEA23F4F96F9EB793B4E4 /* Pods */,
+				CB4218D57484B4AFB8B37AB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +127,9 @@
 			children = (
 				FAB2FB5B1C44259E0014D1E3 /* AppDelegate.swift */,
 				FAB2FB5D1C44259E0014D1E3 /* ViewController.swift */,
+				FADF39F61C56CF8500AEF43A /* HomeController.swift */,
 				FAB2FB5F1C44259E0014D1E3 /* Main.storyboard */,
+				FAE949D21D2463020099A3F2 /* SearchViewController.swift */,
 				FAB2FB621C44259E0014D1E3 /* Assets.xcassets */,
 				FAB2FB641C44259E0014D1E3 /* LaunchScreen.storyboard */,
 				FAB2FB671C44259E0014D1E3 /* Info.plist */,
@@ -132,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAB2FB801C44259F0014D1E3 /* Build configuration list for PBXNativeTarget "Pitchfork" */;
 			buildPhases = (
+				696173BAD07F566812C3D527 /* [CP] Check Pods Manifest.lock */,
 				FAB2FB541C44259E0014D1E3 /* Sources */,
 				FAB2FB551C44259E0014D1E3 /* Frameworks */,
 				FAB2FB561C44259E0014D1E3 /* Resources */,
+				53FA75B29324B962C1081BD6 /* [CP] Embed Pods Frameworks */,
+				FB0BBE61ADA3CCFB9E8C5937 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +226,7 @@
 				TargetAttributes = {
 					FAB2FB571C44259E0014D1E3 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G42Z6VSD2A;
 					};
 					FAB2FB6B1C44259E0014D1E3 = {
 						CreatedOnToolsVersion = 7.2;
@@ -251,6 +285,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53FA75B29324B962C1081BD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pitchfork/Pods-Pitchfork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		696173BAD07F566812C3D527 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0BBE61ADA3CCFB9E8C5937 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pitchfork/Pods-Pitchfork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAB2FB541C44259E0014D1E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +340,8 @@
 			files = (
 				FAB2FB5E1C44259E0014D1E3 /* ViewController.swift in Sources */,
 				FAB2FB5C1C44259E0014D1E3 /* AppDelegate.swift in Sources */,
+				FAE949D31D2463020099A3F2 /* SearchViewController.swift in Sources */,
+				FADF39F71C56CF8500AEF43A /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,23 +479,31 @@
 		};
 		FAB2FB811C44259F0014D1E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE02FA2AA3415966A925FF6 /* Pods-Pitchfork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Pitchfork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Pitchfork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		FAB2FB821C44259F0014D1E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02ADFAEECA0B3FBC8EB77A34 /* Pods-Pitchfork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Pitchfork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Pitchfork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +574,7 @@
 				FAB2FB821C44259F0014D1E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAB2FB831C44259F0014D1E3 /* Build configuration list for PBXNativeTarget "PitchforkTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +583,7 @@
 				FAB2FB851C44259F0014D1E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAB2FB861C44259F0014D1E3 /* Build configuration list for PBXNativeTarget "PitchforkUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +592,7 @@
 				FAB2FB881C44259F0014D1E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
