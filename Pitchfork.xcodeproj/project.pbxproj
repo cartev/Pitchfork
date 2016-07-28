@@ -17,6 +17,7 @@
 		FAB2FB7C1C44259F0014D1E3 /* PitchforkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2FB7B1C44259F0014D1E3 /* PitchforkUITests.swift */; };
 		FADF39F71C56CF8500AEF43A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF39F61C56CF8500AEF43A /* HomeController.swift */; };
 		FAE949D31D2463020099A3F2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE949D21D2463020099A3F2 /* SearchViewController.swift */; };
+		FAE949D51D26BA4F0099A3F2 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE949D41D26BA4F0099A3F2 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		FAB2FB7D1C44259F0014D1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FADF39F61C56CF8500AEF43A /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		FAE949D21D2463020099A3F2 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FAE949D41D26BA4F0099A3F2 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85EBC568CA002A236A7670F6 /* Pods_Pitchfork.framework in Frameworks */,
+				FAE949D51D26BA4F0099A3F2 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +136,7 @@
 				FAB2FB621C44259E0014D1E3 /* Assets.xcassets */,
 				FAB2FB641C44259E0014D1E3 /* LaunchScreen.storyboard */,
 				FAB2FB671C44259E0014D1E3 /* Info.plist */,
+				FAE949D41D26BA4F0099A3F2 /* Alamofire.framework */,
 			);
 			path = Pitchfork;
 			sourceTree = "<group>";
@@ -484,6 +488,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pitchfork",
+				);
 				INFOPLIST_FILE = Pitchfork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Pitchfork;
@@ -499,6 +507,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pitchfork",
+				);
 				INFOPLIST_FILE = Pitchfork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Pitchfork;
